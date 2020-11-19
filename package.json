@@ -5,13 +5,18 @@
   "scripts": {
     "serve": "vue-cli-service serve --port 8090",
     "build": "vue-cli-service build",
+    "build-test": "vue-cli-service build --mode test",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "core-js": "^3.6.5",
+    "mint-ui": "^2.2.13",
+    "qs": "^6.9.4",
     "vant": "^2.10.14",
     "vue": "^2.6.11",
+    "vue-axios": "^3.2.0",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },

@@ -17,7 +17,15 @@ module.exports = {
     'prefer-const': 'off',
     'one-var': 'off',
     'indent': 'off',
-    'semi': 'off'
+    'semi': 'off',
+    'comma-dangle': 'off',
+    'eol-last': 'off',
+    'spaced-comment': 'off',
+    'space-before-function-paren': 'off',
+    'object-curly-spacing': 'off',
+    'dot-notation': 'off',
+    'no-undef': 'off',
+    'eqeqeq': 'off'
   },
   overrides: [
     {
